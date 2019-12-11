@@ -20,6 +20,8 @@ If you need to roll back to Swiper3, use version [v2.6.7](https://github.com/sur
 
 如果需要回退到 Swiper3，请使用 [v2.6.7](https://github.com/surmon-china/vue-awesome-swiper/tree/v2.6.7) 版本。
 
+# ENVOLVE SPECIFIC
+I have forked this repo as the swiper container was being set with a class of "swiper-container", which other webpages were also using. Currently this fork just changes the class to "envolve-swiper-container".
 
 # Example
 
