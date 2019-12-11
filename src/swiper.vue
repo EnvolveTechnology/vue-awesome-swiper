@@ -1,5 +1,5 @@
 <template>
-  <div class="swiper-container">
+  <div class="envolve-swiper-container">
     <slot name="parallax-bg"></slot>
     <div :class="classes.wrapperClass">
       <slot></slot>
@@ -14,7 +14,7 @@
 <script>
   // require sources
   import _Swiper from 'swiper/dist/js/swiper.js'
-  const Swiper = window.Swiper || _Swiper
+  const Swiper = _Swiper
 
   // pollfill
   if (typeof Object.assign != 'function') {
