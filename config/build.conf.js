@@ -12,8 +12,8 @@ module.exports = merge(baseConfig, {
   externals: {
     'swiper/dist/js/swiper.js': {
         root: 'Swiper',
-        commonjs: 'swiper/dist/js/swiper.js',
-        commonjs2: 'swiper/dist/js/swiper.js',
+        commonjs: 'swiper/dist/js/swiper.min.js',
+        commonjs2: 'swiper/dist/js/swiper.min.js',
         amd: 'swiper'
     },
     'object-assign': 'object-assign'

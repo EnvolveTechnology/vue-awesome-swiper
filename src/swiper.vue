@@ -13,7 +13,7 @@
 
 <script>
   // require sources
-  import _Swiper from 'swiper/dist/js/swiper.js'
+  import _Swiper from 'swiper/dist/js/swiper.min.js'
   const Swiper = _Swiper
 
   // pollfill

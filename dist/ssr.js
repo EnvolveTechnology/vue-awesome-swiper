@@ -5,9 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.install = exports.swiper = exports.Swiper = undefined;
 
-var _swiper = require('swiper/dist/js/swiper.js');
+var _swiperMin = require('swiper/dist/js/swiper.min.js');
 
-var _swiper2 = _interopRequireDefault(_swiper);
+var _swiperMin2 = _interopRequireDefault(_swiperMin);
 
 var _objectAssign = require('object-assign');
 
@@ -15,7 +15,7 @@ var _objectAssign2 = _interopRequireDefault(_objectAssign);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Swiper = window.Swiper || _swiper2.default;
+var Swiper = window.Swiper || _swiperMin2.default;
 
 var DEFAULT_EVENTS = ['beforeDestroy', 'slideChange', 'slideChangeTransitionStart', 'slideChangeTransitionEnd', 'slideNextTransitionStart', 'slideNextTransitionEnd', 'slidePrevTransitionStart', 'slidePrevTransitionEnd', 'transitionStart', 'transitionEnd', 'touchStart', 'touchMove', 'touchMoveOpposite', 'sliderMove', 'touchEnd', 'click', 'tap', 'doubleTap', 'imagesReady', 'progress', 'reachBeginning', 'reachEnd', 'fromEdge', 'setTranslate', 'setTransition', 'resize'];
 
